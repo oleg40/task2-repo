@@ -1,5 +1,4 @@
 select 
-    "facebook" as platform,
     `date`, 
     add_to_cart, 
     clicks, 

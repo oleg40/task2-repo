@@ -1,5 +1,4 @@
 select 
-    "bing" as platform,
     `date`, 
     0 as add_to_cart, 
     clicks, 

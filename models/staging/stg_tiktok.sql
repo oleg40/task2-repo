@@ -1,5 +1,4 @@
 select 
-    "tiktok" as platform,
     `date`, 
     add_to_cart, 
     clicks, 
