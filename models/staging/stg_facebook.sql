@@ -1,4 +1,5 @@
 select 
+    "facebook" as platform,
     `date`, 
     add_to_cart, 
     clicks, 
@@ -23,6 +24,6 @@ select
     cast(campaign_id as string) as campaign_id,
     channel,
     cast(creative_id as string) as creative_id,
-    null as placement_id
+    cast(null as string) as placement_id
 
 from {{ ref('src_ads_creative_facebook_all_data') }}

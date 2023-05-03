@@ -1,4 +1,5 @@
 select 
+    "tiktok" as platform,
     `date`, 
     add_to_cart, 
     clicks, 
@@ -22,7 +23,7 @@ select
     cast(adgroup_id as string) as adset_id,
     cast(campaign_id as string) as campaign_id,
     channel,
-    null as creative_id,
-    null as placement_id
+    cast(null as string) as creative_id,
+    cast(null as string) as placement_id
 
 from {{ ref('src_ads_tiktok_ads_all_data') }}
