@@ -16,7 +16,7 @@ select
     0 as revenue,
     0 as shares,
     spend,
-    (conversions + skan_conversion + purchase + rt_installs + skan_app_install + add_to_cart) as total_conversions,
+    (conversions + skan_conversion) as total_conversions,
     video_views,
     cast(ad_id as string) as ad_id,
     cast(adgroup_id as string) as adset_id,

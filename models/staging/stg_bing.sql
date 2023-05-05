@@ -3,7 +3,7 @@ select
     0 as add_to_cart, 
     clicks, 
     0 as comments, 
-    clicks as engagements, 
+    0 as engagements, 
     imps as impressions, 
     0 as installs, 
     0 as likes, 
