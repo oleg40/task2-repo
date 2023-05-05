@@ -16,7 +16,7 @@ select
     0 as revenue,
     0 as shares,
     spend,
-    url_clicks as total_conversions,
+    0 as total_conversions,
     video_total_views as video_views,
     cast(null as string) as ad_id,
     cast(null as string) as adset_id,

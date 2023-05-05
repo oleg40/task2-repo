@@ -6,3 +6,4 @@ select
     channel
 from {{ ref('int_unioned') }}
 group by channel
+order by cost_per_click desc
